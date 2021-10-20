@@ -1,4 +1,4 @@
-vector<int> dijsktra(vector<pair<int,int>>& graph[], int src) { // O((N + M) log N)
+vector<int> dijsktra(vector<pair<int,int>> graph[], int src) { // O((N + M) log N)
     vector<int> d(n + 1, INT_MAX);
     set<pair<int, int>> s; //{weight,node}
 
